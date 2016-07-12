@@ -1,0 +1,11 @@
+{
+	"require": {
+        "slim/slim": "^3.0",
+        "entomb/slim-json-api": "dev-master",
+        "illuminate/database": "*"
+    },
+    "autoload": {
+        "files": [ "app/config.php" ],
+        "classmap": [ "app/models" ]
+    }
+}
